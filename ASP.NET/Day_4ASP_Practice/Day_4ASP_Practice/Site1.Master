@@ -1,0 +1,84 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Day_4ASP_Practice.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <style>
+        *{
+          
+            font-size:20px;
+
+        }
+        header{
+            text-align:center;
+            background-color:silver;
+            padding:40px;
+            height:60px;
+            color:navy;
+        }
+        footer{
+            text-align:center;
+            background-color:silver;
+              padding:40px;
+            height:60px;
+            color:navy;
+            margin-top:20px;
+        }
+        nav{
+            overflow:hidden;
+            background-color:black;
+            padding:10px;
+            margin-bottom:20px;
+
+        }
+        nav ul{
+           list-style:none;
+            padding:5px;
+            color:aqua;
+            text-align:center;
+            text-decoration:none;
+        }
+        nav ul li{
+            float:left;
+            padding:10px;
+            color:aqua;
+            text-align:center;
+            text-decoration:none;
+            margin-left:10px;
+        }
+        nav ul li a{
+            text-decoration:none;
+            padding:10px;
+        }
+         nav ul li a:hover{
+            text-decoration:none;
+            color:black;
+            background-color:white;
+        }
+    </style>
+</head>
+<body>
+    <header><h1>This Is Header</h1></header>
+    <nav>
+        <ul>
+            <li><a>Home</a></li>
+            <li><a>Services</a></li>
+            <li><a>Downloads</a></li>
+            <li><a>About Us</a></li>
+            <li><a>Contact</a></li>
+            <li style="float:right;"><a>Login</a></li>
+        </ul>
+    </nav>
+   <section>
+            <asp:ContentPlaceHolder ID="MyContentPlaceHolder" runat="server">
+            </asp:ContentPlaceHolder>
+      </section>
+    
+    <footer><h1>This is Footer</h1></footer>
+</body>
+</html>
