@@ -52,7 +52,6 @@ C:\Users\Administrator\source\repos\ASP.NET\ASP_Assignment2\ASP_Assignment2\bin\
 C:\Users\Administrator\source\repos\ASP.NET\ASP_Assignment2\ASP_Assignment2\bin\roslyn\VBCSCompiler.exe.config
 C:\Users\Administrator\source\repos\ASP.NET\ASP_Assignment2\ASP_Assignment2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\Users\Administrator\source\repos\ASP.NET\ASP_Assignment2\ASP_Assignment2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\Administrator\source\repos\ASP.NET\ASP_Assignment2\ASP_Assignment2\obj\Debug\ASP_Assignment2.csproj.AssemblyReference.cache
 C:\Users\Administrator\source\repos\ASP.NET\ASP_Assignment2\ASP_Assignment2\obj\Debug\ASP_Assignment2.csproj.CoreCompileInputs.cache
 C:\Users\Administrator\source\repos\ASP.NET\ASP_Assignment2\ASP_Assignment2\obj\Debug\ASP_Assignment2.csproj.CopyComplete
 C:\Users\Administrator\source\repos\ASP.NET\ASP_Assignment2\ASP_Assignment2\obj\Debug\ASP_Assignment2.dll

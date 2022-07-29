@@ -33,7 +33,7 @@
             <br />
             Supply Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :&nbsp; <asp:TextBox ID="Supply_Date" runat="server" TextMode="Date"></asp:TextBox>
             
-            <asp:RangeValidator ID="DateValidator" runat="server" ControlToValidate="Supply_Date" Display="Dynamic" ErrorMessage="Date must be today's date" ForeColor="#CC0000"></asp:RangeValidator>
+            <asp:RangeValidator ID="DateValidator" runat="server" ControlToValidate="Supply_Date" Display="Dynamic" ErrorMessage="Date must be today's date" ForeColor="#CC0000" MaximumValue="<%# DateTime.Today.ToShortDateString() %>" MinimumValue="<%# DateTime.Today.ToShortDateString() %>"></asp:RangeValidator>
             
             <br />
             &nbsp;<br />
